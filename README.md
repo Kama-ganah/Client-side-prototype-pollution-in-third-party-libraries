@@ -1,7 +1,7 @@
 # Overview
-As a penetration tester, I assessed the client-side security of a web application with a focus on JavaScript behavior and third-party library integration. During testing, I identified a client-side prototype pollution vulnerability that could be exploited through a gadget in a third-party library. By polluting the global object prototype via a URL fragment, I was able to trigger a DOM-based XSS sink and execute arbitrary JavaScript in the victim’s browser. This project demonstrates how unsafe object handling and vulnerable library gadgets can be chained to achieve high-impact client-side exploitation.
+I assessed the client-side security of a web application with a focus on JavaScript behavior and third-party library integration. During testing, I identified a client-side prototype pollution vulnerability that could be exploited through a gadget in a third-party library. By polluting the global object prototype via a URL fragment, I was able to trigger a DOM-based XSS sink and execute arbitrary JavaScript in the victim’s browser. This project demonstrates how unsafe object handling and vulnerable library gadgets can be chained to achieve high-impact client-side exploitation.
 
-# Steps Undertaken
+# Methodology
 
 Step 1: Analyzed client-side JavaScript execution paths using Burp Suite’s DOM Invader.
 
